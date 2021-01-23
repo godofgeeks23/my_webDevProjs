@@ -1,0 +1,161 @@
+body{
+	background: rgb(20,20,20);
+}
+div.topbar{
+	background: rgb(70,70,70);
+	margin: 0px 0px 0px 0px;
+	padding: 5px 15px;
+	color: whitesmoke;
+	font-family: "century gothic";
+	text-align: left;
+}
+form{
+	box-shadow: 0px 8px 16px 0px rgba(55,55,55,0.7);
+	background: #51B8E5;;
+	margin: 10px 0px 0px 0px;
+	padding: 15px 25px;
+	color: white;
+	font-family: "century gothic";
+	text-align: right;
+  border-radius: 20px;
+}
+button.but_mem{
+	width: 150px;
+	height: 30px;
+	background: url("12.png");
+	border: 3px solid black;
+	margin: 5px 3px;
+	border-radius: 3px;
+}
+button.but_notmem{
+	color: whitesmoke;
+	width: 150px;
+	height: 30px;
+	background: url("6.png");
+	border: 3px solid whitesmoke;
+	margin: 5px 3px;
+	border-radius: 3px;
+}
+div.m_content{
+	display: inline;
+	padding: 20px 20px 0px 10px;
+	background: rgb(35,60,85);
+	border-radius: 10px;
+	font-family: "cambria math";
+	box-shadow: 0px 4px 8px 0px rgba(100,100,100,0.9);
+	text-align: left;
+	height: 15%;
+	float: left;
+}
+a{
+	margin: 10px;
+	padding: 15px;
+	background: whitesmoke;
+	border-radius: 30px;
+	text-decoration: none;
+	color: black;
+	border: 3px solid #E2E3E3;
+}
+a:hover{
+  background: #ECECED;
+	transition: 0.3s;
+}
+a:active{
+		background: #E2E3E3;
+}
+a.other1{
+	background: url("b3.png");
+}
+div.letg{
+	color: lightblue;
+	font-size: x-large;
+	text-align: center;
+}
+a.box1{
+	display: inline;
+	padding: 20px 20px 20px 20px;
+	margin: 10px 10px 10px 60px;
+	background: #2EBCFE;
+	border-radius: 10px;
+	font-family: "cambria math";
+	box-shadow: 0px 4px 8px 0px rgba(100,100,100,0.9);
+	text-align: left;
+	height: auto;
+	width: 25%;
+	float: left;
+		transition: 0.5s;
+	border: none;
+}
+
+.box2{
+	display: inline;
+	padding: 20px 20px 20px 10px;
+		margin: 10px;
+	background: #2EBCFE;
+	border-radius: 10px;
+	font-family: "cambria math";
+	box-shadow: 0px 4px 8px 0px rgba(100,100,100,0.9);
+	text-align: left;
+	height: auto;
+		width: 25%;
+	float: left;
+		transition: 0.5s;
+	border: none;
+}
+.box3{
+	display: inline;
+	padding: 20px 20px 20px 10px;
+		margin: 10px 10px 10px 10px;
+	background: #2EBCFE;
+	border-radius: 10px;
+	font-family: "cambria math";
+	box-shadow: 0px 4px 8px 0px rgba(100,100,100,0.9);
+	text-align: left;
+	height: auto;
+	width: 25%;
+	float: left;
+		transition: 0.5s;
+	border: none;
+}
+a.box1:hover{
+	background: #67FEFE;
+	transition: 0.5s;
+}
+.box2:hover{
+	background: #67FEFE;
+	transition: 0.5s;
+}
+.box3:hover{
+	background: #67FEFE;
+	transition: 0.5s;
+}
+div.learn{
+	display: inline;
+	padding: 10px 10px 5px 10px;
+	margin: 10px 10px 10px 455px;
+	background: #74BF43;
+	border-radius: 10px;
+	font-family: "cambria math";
+	box-shadow: 0px 4px 8px 0px rgba(100,100,100,0.9);
+	text-align: left;
+	height: auto;
+	width: 25%;
+	float: left;
+	transition: 0.3s;
+	text-align: center;
+	font-size: x-large;
+}
+div.learn:hover{
+	background: #69AD3D;
+	transition: 0.3s;
+}
+div.bottomb{
+	display: inline;
+	padding: 5px 5px 5px 5px;
+	margin: 10px 0px 5px 0px;
+	background: #38ADE7;
+	text-align: right;
+	height: auto;
+	width: 99%;
+	float: left;
+}

@@ -1,0 +1,82 @@
+<html>
+<head>
+<title>Log In</title>
+<style>
+body{
+	background: url("3.png");
+	font-size: x-large;
+	color: grey;
+}
+div.hea{
+	color: rgb(200, 200,200);
+	text-align: center;
+	font-size: 30px;
+}
+form{
+	text-align: center;
+	padding: 20px;
+	background: url("1.png");
+	border-radius: 20px;
+	border: 8px solid rgb(180,180,180);
+	font-size: 17px;
+	color: rgb(180, 180, 180);
+	width: 50%;
+	margin: 0px 25%;
+}
+input{
+	text-align: center;
+	margin: 3px auto;
+	width: 250px;
+	height: 35px;
+	padding: 5px 2px 5px 2px; 
+	background: url("4.png");
+	border: 3px solid #008ACB;
+	border-radius: 5px;
+	transition: 0.5s;
+}
+input:focus{
+	background: url("7.png");
+	border: 3px solid #51B8E5;
+}
+button{
+	font-weight: bold;
+	background: url("12.png");;
+	width: 80px;
+	height: 40px;
+	border: 3px solid whitesmoke;
+	border-radius: 70px;
+}
+button:hover{
+	border: 3px solid yellowgreen;
+}
+button:active{
+	border: green;
+}
+button.for{
+	background: url("5.png");;
+	width: 40px;
+	height: 40px;
+	border: 3px solid whitesmoke;
+	border-radius: 70px;
+	color: white;
+}
+</style>
+</head>
+<body>
+<button class="for">.</button>
+<br><br><br>
+
+<form>
+<div class="hea">One Account.<br> All of Google.<br></div><br>
+<div class="username">
+Username: <input type="text" size="30">
+</div>
+<br><br>
+<div class="password">
+Password: <input type="password" size="30">
+</div>
+<br><br>
+<button action="det.php">Log in</button>
+</form>
+</body>
+</html>

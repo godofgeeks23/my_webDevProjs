@@ -1,0 +1,30 @@
+Nice blue:			#51B8E5
+Dark blue:		RGB(35,60,85) 
+Very nice blue:		#2EBCFE
+	(On Hover):	#67FEFE
+Green:			#74BF43
+	(On Hover):	#69AD3D
+Orange:			#EAAB16
+Whitesmoke
+BlueViolet
+____________________________________________
+Shadows: box-shadow: 5px 5px 5px grey;
+	box-shadow: 10px 10px 10px grey;
+____________________________________________
+Animations:
+
+	@keyframes example{
+	from{...}
+	to{...}
+	}
+__
+animation-name: example;
+animation-duration: 40s;
+animation-iteration-count: 10000000;
+animation-timing-function: linear;
+____________________________________________
+Transitions:
+transition: width 1s;
+____________________________________________
+<link rel="stylesheet" type="text/css" href="c.css">
+____________________________________________

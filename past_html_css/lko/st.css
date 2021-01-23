@@ -1,0 +1,50 @@
+body{
+  background: rgb(240,240,240);
+  margin: 30px 10px 10px 280px; 
+}
+div.a{
+    margin: 0 0;
+    padding: 1;
+    background: green;
+    width: 100%;
+    height: 60px;
+    position:fixed;
+    left: 0;
+    top: 0;
+}
+div.b{
+   font-size: xx-large;
+   padding: 10px;
+  background: rgb(220,220,220);
+  margin: 25px 25% 0px;
+  position: fixed;
+  width: 50%;
+  border-radius: 40px;
+  left: 2%;
+  top: 2%;
+    
+}
+img{
+  width: 75%;
+  margin: 10px 0px 10px 0px;
+  opacity: 0.5;
+  transition: opacity 0.3s;
+  border: 2px solid black;
+}
+img:hover{
+  opacity: 1;
+}
+.sidebar{
+  position: fixed;
+  left:0;
+  top:70;
+  width: 20%;
+  height: 100%;
+}
+.content{
+  background: rgb(230,230,230);
+  border-radius: 20px;
+    font-family: "monotype corsiva";
+  font-size: x-large;
+  padding: 10 10;
+}

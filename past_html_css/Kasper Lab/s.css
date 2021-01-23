@@ -1,0 +1,154 @@
+body{
+  background: rgb(240,240,240);
+}
+div.a{
+  background: rgb(230,230,230);
+  text-align: center;
+  color: rgb(100,100,100);
+  font-size: 35px;
+  border-radius: 200px;
+  width: 45%;
+  height: 130px;
+  transition: 0.2s;
+}
+div.a:active{
+  background: rgb(220,220,220);
+    transition: 0.2s;
+}
+div.b{
+  margin: -40px 0px;
+  background: green;
+  width: 100%;
+  height: 100px;
+}
+div.c{
+  margin: 10px 10px 10px 10px;
+  background: rgb(230,230,230);
+  width: 98%;
+  height: auto;
+  border: 5px solid rgb(200,200,200);
+  border-radius: 10px;
+}
+div.c div{
+  margin: 15px 20px 0px 20px;
+  padding: 10px;
+  width: 20%;
+  height: auto;
+  border-radius: 10px;
+  color: grey;
+  text-align: center;
+  font-size: x-large;
+  transition: 0.5s;
+}
+div.c div:hover{
+  color: whitesmoke;
+  background: green;
+  transition: 0.2s;
+}
+div.c div:active{
+  color: whitesmoke;
+  background: #69AD3D;
+}
+div.d{
+  width: 400px;
+  height: 50px;
+  background: orangered;
+  color: rgb(240,240,240);
+  transition: width 1s, height 1s, background 1s;
+  font-size: xx-large;
+  border-radius: 20px;
+  padding: 20px 0px;
+}
+div.d:hover{
+  width: 400px;
+  height: 150px;
+  background: red;
+}
+div.d:active{
+  background: black;
+}
+#e{
+  display: block;
+  width: 150px;
+  height: auto;
+  font-size: x-large;
+  text-align: center;
+  padding: 20px 10px;
+  background: #500B82;
+  color: whitesmoke;
+  border: 5px solid white;
+  transition: background 0.2s, color 0.2s, border 0.2s; 
+}
+.x{
+  text-align: center;
+  margin: 15px 0px;
+}
+#e:hover{
+    background: rgb(123,234,012);
+  border: 5px solid black;
+  color: black;
+}
+#e:active{
+  background: green;
+  color: white;
+}
+div.f{
+  font-size: x-large;
+  padding: 10px;
+  background: rgb(210,210,210);
+  width: 25%;
+  text-align: center;
+  box-shadow: 5px 5px 5px grey;
+  transition: box-shadow 0.2s;
+  border-radius: 10px;
+}
+.f:hover{
+  box-shadow: 10px 10px 5px grey;
+}
+.f:active{
+  box-shadow: 10px 10px 5px black;
+}
+@keyframes example{
+  from {transform: rotateY(0deg);}
+  to {transform: rotateY(720deg);}
+}
+div.g{
+  font-size: x-large;
+  padding: 10px;
+  background: rgb(210,210,210);
+  width: 25%;
+  text-align: center;
+  box-shadow: 5px 5px 5px grey;
+  border-radius: 10px;
+  animation-name: example;
+  animation-duration: 40s;
+  animation-iteration-count: 10000000;
+  animation-timing-function: linear;
+}
+div.h{
+  background: rgb(220,220,220);
+  font-size: x-large;
+  padding: 30px;
+  width: 20%;
+  transition: box-shadow 0.4s, background 0.4s;
+}
+div.h p{
+  display: none;
+  font-size: 20px;
+}
+div.h:hover{
+    background: rgb(250,250,250);
+  box-shadow: 10px 10px 5px grey;
+}
+div.h:hover p{
+  padding: 10px;
+  display:block;
+  margin: 0px;
+}
+div.h:hover p:hover{
+  background: blueviolet;
+  color: whitesmoke;
+}
+div.h:hover p:active{
+  background: blue;
+}
