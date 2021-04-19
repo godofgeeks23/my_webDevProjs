@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="styles.css">
+<title>Title Goes here!</title>
+</head>
+<body>
+
+<form action="/" method="GET" autocomplete="on">
+	<!-- method is of two types "GET" and "POST" -->
+	<input type="radio" id="male" name="male" value="male">
+	<!-- id and name are important attributes -->
+	<!-- input-id should match with label-for -->
+	<!-- input name is used while scripting -->
+	<label for="male">Male</label>
+	<br>
+	<input type="radio" id="male" name="male" value="female">
+	<label for="female">Female</label>
+	<br>
+	<input type="text" placeholder="firstname">
+	<br>
+	<input type="text" value="Already filled">
+	<br>
+	<input type="text" value="Already filled" readonly>	
+	<br>
+	<input type="text" value="Already filled" disabled>
+	<br>	
+	<input type="checkbox" id="domain">
+	<label for="domain">Web Development</label>
+	<br>
+	<input type="checkbox" id="domain">
+	<label for="domain">Android</label>
+	<br>
+	<input type="checkbox" id="domain">
+	<label for="domain">ML</label>
+	<br>
+	<input type="checkbox" id="domain">
+	<label for="domain">AR/VR</label>
+	<br>
+	<label for="domains">Choose your Domain please...</label>
+	<select id="domains name="domains>
+		<option value="Web">Web</option>
+		<option value="AIML">AIML</option>
+		<option value="Android">Android</option>
+		<option value="IOT">IOT</option>
+	</select>
+	<br>
+	<textarea name="comment" rows="10" columns="20">This is a text area</textarea>
+	<br>
+	<input type="password">
+	<br>
+	<input type="file">
+	<br>
+	<input type="reset">
+	<br>
+	<input type="date">
+	
+</form>
+
+</body>
+</html>

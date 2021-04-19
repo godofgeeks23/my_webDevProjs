@@ -1,0 +1,14 @@
+body {
+  background-color: lightgray;
+}
+h1 {
+	text-align: center;
+}
+form {
+  width: 100%;
+}
+div {
+  width: 100%;
+  text-align: center;
+  border-style: solid;
+}

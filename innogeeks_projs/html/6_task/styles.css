@@ -1,0 +1,33 @@
+body {
+  background-image: url("backg.png");
+}
+table, th, td {
+	margin-right: auto;
+	margin-left: auto;
+	background-color: lightgray;
+  	border: 1px solid black;
+  	border-collapse: collapse;
+  	padding-top: 20px;
+  	padding-right: 80px;
+  	padding-bottom: 20px;
+  	padding-left: 80px;
+  	text-align: center;
+}
+#title {
+	padding-top: 10px;
+  	padding-right: 80px;
+  	padding-bottom: 10px;
+  	padding-left: 80px;
+}
+#ifr {
+	padding-top: 10px;
+  	padding-right: 10px;
+  	padding-bottom: 10px;
+  	padding-left: 10px;
+}
+.grp1 {
+	padding-top: 10px;
+  	padding-right: 50px;
+  	padding-bottom: 10px;
+  	padding-left: 50px;
+}
