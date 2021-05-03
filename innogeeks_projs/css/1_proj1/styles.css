@@ -1,0 +1,21 @@
+div
+{
+  background-color: yellow;
+  border-style: solid;
+  border-width: 10px;
+  border-color: red;
+  margin: 10px;
+}
+.outer
+{
+    width: 80px;
+}
+.circular
+{
+  border-radius: 100%;
+}
+.circular-outer
+{
+  border-radius: 100%;
+  width: 80px;
+}
