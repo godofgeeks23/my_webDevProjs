@@ -1,23 +1,28 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<link rel="stylesheet" href="styles.css">
 		<title>Login Page</title>
+		<link rel="stylesheet" href="styles.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	</head>
 	<body>
 		<div class="center-div">
 			<div class="container">
-				<div class="heading"><b>LOGIN</b></div>
+				<div class="heading"><b>Welcome!</b></div>
 				<input type="text" id="username" name="username" placeholder="Username / EMail-ID"><br>
 				<input type="password" id="password" name="password" placeholder="Password"><br>
 				<div>
 					<input type="checkbox" id="remember" name="remember" value="remember">
 					<label for="remember">Remember Me</label><br>
 				</div>
+				<div class="login-buttons">Login</div>
 				<div class="sub-heading">Or Login With</div>
-				<div class="login-buttons">Google</div>
-				<div class="login-buttons">Facebook</div>
-				<div class="sub-heading">Not a Member? Sign Up Now</div>
+				<div class="gridbox">
+					<div class="login-buttons"><i style="font-size:18px" class="fa">&#xf1a0;</i></div>
+					<div class="login-buttons"><i style="font-size:18px" class="fa">&#xf082;</i></div>
+					<div class="login-buttons"><i style="font-size:18px" class="fa">&#xf099;</i></div>
+				</div>
+				<div class="sub-heading">Not a Member? <u><b>Sign Up</b></u> Now</div>
 			</div>
 		</div>
 	</body>
