@@ -43,7 +43,7 @@ body
 	display: grid;
 	grid-template-columns: auto auto auto;
 }
-input
+.entrybox
 {
 	padding: 10px;
 	margin: 10px;
@@ -53,6 +53,10 @@ input
 	border-bottom: 3px solid black;
 	border-image: linear-gradient(to right, #5680E9,#8860D0);
 	border-image-slice: 1;
+}
+.checkbox-box
+{
+	padding: 10px;
 }
 .login-buttons
 {
