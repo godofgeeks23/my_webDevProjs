@@ -1,0 +1,72 @@
+body
+{
+	font-family: arial;
+}
+.center-div {
+  display:flex; 
+  position:absolute; 
+  top:0; 
+  bottom:0; 
+  right:0;
+  left:0;
+  background-image: radial-gradient(#5680E9, #5AB9EA, #C1C8E4);
+}
+.container
+{
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	width: 25%;
+	height: auto;
+	/* background-color: white; */
+	background: rgba(255, 255, 255, 0.6);
+	backdrop-filter: blur(8px);
+	padding: 20px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	text-align: center;
+	border-radius: 10px;
+}
+.heading
+{
+	font-size: 35px;
+	margin-bottom: 20px;
+	background-image: linear-gradient(45deg, #8860D0 , #5AB9EA);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent; 
+	-moz-background-clip: text;
+	-moz-text-fill-color: transparent;
+}
+.sub-heading
+{
+	padding: 10px;
+}
+.gridbox
+{
+	display: grid;
+	grid-template-columns: auto auto auto;
+}
+.entrybox
+{
+	padding: 10px;
+	margin: 10px;
+	height: 20px;
+	background: transparent;
+	border: 0;
+	border-bottom: 3px solid black;
+	border-image: linear-gradient(to right, #5680E9,#8860D0);
+	border-image-slice: 1;
+}
+.checkbox-box
+{
+	padding: 10px;
+}
+.login-buttons
+{
+	background-image: linear-gradient(to right, #8860D0 , #5AB9EA);
+	padding: 10px 20px;
+	margin: 10px auto;
+	width: 40px;
+	color:  white;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
