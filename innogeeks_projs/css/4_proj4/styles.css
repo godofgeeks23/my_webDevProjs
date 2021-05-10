@@ -17,7 +17,7 @@ body
 	/* display: flex; */
 	/* flex-direction: row; */
 	/* margin: auto; */
-	background: black;
+	background-image: linear-gradient(to right, #8860D0 , #5AB9EA);
 	/* width: 100%; */
 	color: white;
 	padding: 10px;
@@ -28,9 +28,18 @@ body
 	padding: 10px;
 	width:auto;
 	float:left;
-	background: rgb(88, 88, 88);
+	background: white;
+	color: black;
+	margin-right: 10px;
+	
+	font-size: 14px;
 	/* border-radius: 10px; */
 	/* margin-right: 20px; */
+}
+#home
+{
+	background: #5AB9EA;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 #login
 {
@@ -41,7 +50,7 @@ body
 	display: flex;
 	flex-direction: column;
 	color: white;
-	background-image: url("img1.png");
+	background-image: url("img1blur.png");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -51,6 +60,10 @@ body
 	justify-content: center;
   	align-content: center;
 }
+.subhead
+{
+	font-size: 24px;
+}
 .subheading
 {
 	padding: auto;
@@ -58,18 +71,19 @@ body
 }
 .heading
 {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	font-size: 200px;
 	margin-bottom: 20px;
-	/* background-image: linear-gradient(45deg, #8860D0 , #5AB9EA);
+	background-image: linear-gradient(90deg, rgba(255,0,0,1) 0%,  rgba(255,222,0,1) 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent; 
 	-moz-background-clip: text;
-	-moz-text-fill-color: transparent; */
+	-moz-text-fill-color: transparent;
 }
 .explore_button
 {
 	padding: 20px 40px;
-	background: blue;
+	background-image: linear-gradient(to right, #8860D0 , #5AB9EA);
 	width: auto;
 	margin-left: auto;
 	margin-right: auto;
@@ -85,7 +99,8 @@ body
 }
 .gallery_item
 {
-	margin: 20px;
+	margin: 15px;
+	background: white;
 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 img
