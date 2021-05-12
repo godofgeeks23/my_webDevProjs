@@ -93,6 +93,10 @@
     margin: 10px 5px;
     color: white;
 }
+.social_icons:hover
+{
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2);
+}
 .grid
 {
     display: flex;
@@ -103,11 +107,13 @@
     color: #45546a;
 }
 
-.navbar {
-    overflow: hidden;
+.navbar 
+{
     background-color: #ffffff;
     position: fixed;
     top: 0;
+    left: 0;
+    right: 0;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -205,13 +211,21 @@
     padding: 20px;
     background: #284166;
     color: white;
-    width: 20%;
+    width: 30%;
     margin: auto;
     border-radius: 10px;
     text-align: center;
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2);
+  }
+  .messagebutton:hover
+  {
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.2);
   }
   .pane1item
   {
       padding: 10px;
-      font-size: 18px;
+    font-size: 16px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
   }
