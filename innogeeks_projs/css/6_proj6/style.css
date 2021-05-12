@@ -201,34 +201,34 @@
       flex-grow: 1;
   }
   .inputcontainer
-  {
-      padding: 10px;
-  }
-  input, textarea
-  {
-    width: 100%;
-    box-sizing: border-box;
-  }
-  .messagebutton
-  {
-    padding: 20px;
-    background: #284166;
-    color: white;
-    width: 30%;
-    margin: auto;
-    border-radius: 10px;
-    text-align: center;
-    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2);
-  }
-  .messagebutton:hover
-  {
-    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.2);
-  }
-  .pane1item
-  {
-      padding: 10px;
-    font-size: 16px;
-    display: flex;
-    justify-content: left;
-    align-items: center;
-  }
+{
+  padding: 10px;
+}
+input, textarea
+{
+  width: 100%;
+  box-sizing: border-box;
+}
+.messagebutton
+{
+  padding: 20px;
+  background: #284166;
+  color: white;
+  width: 30%;
+  margin: auto;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2);
+}
+.messagebutton:hover
+{
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.2);
+}
+.pane1item
+{
+  padding: 10px;
+  font-size: 16px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
