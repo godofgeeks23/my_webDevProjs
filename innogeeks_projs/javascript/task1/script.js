@@ -1,6 +1,6 @@
 console.clear()
-var country, continent, population
-country = "India"
+var continent, population
+const country = "India"
 continent = "Asia"
 population = 1360000000
 console.log(country, continent, population)
@@ -10,12 +10,6 @@ console.log(country, continent, population)
 var island = true
 var language
 console.log(island, population, country, language)
-
-/**************************************** */
-
-// language = "hindi"
-// delete country
-// const country = "india"
 
 /**************************************** */
 
