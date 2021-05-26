@@ -3,7 +3,7 @@ var continent, population
 const country = "India"
 continent = "Asia"
 population = 1360000000
-console.log(country, continent, population)
+console.log(country, continent, population) 
 
 /**************************************** */
 
