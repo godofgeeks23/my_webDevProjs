@@ -1,0 +1,70 @@
+<!-- here we are starting to learn javascript 
+
+ECMAScript is the official name of the language.  -
+JavaScript was invented by Brendan Eich in 1995
+
+Old JavaScript examples may use a type attribute: <script type="text/javascript">.
+The type attribute is not required. JavaScript is the default scripting language in HTML.
+
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // this is one method of including js in html i.e. using <script> tag
+        console.log("hello world")
+        // JavaScript accepts both double and single quotes
+        console.log('hello world')  
+    </script>
+    
+    <!-- <script src="/application.js"</script> -->
+    <!-- the above is the method to use external js file in html -->
+
+    <!--     
+    External JavaScript Advantages - 
+
+        It separates HTML and code
+        It makes HTML and JavaScript easier to read and maintain
+        Cached JavaScript files can speed up page loads 
+    -->
+
+    <!--     Output methods in JS - 
+            document.getElementById("demo").innerHTML = 5 + 6;
+            
+            document.write(5 + 6);  // Using document.write() after an HTML document is loaded, will delete all existing HTML
+            
+            window.alert(5 + 6);    // In JavaScript, the window object is the global scope object, that means that variables, properties, and methods by default belong to the window object. This also means that specifying the window keyword is optional
+
+            console.log(5 + 6);
+
+            // JavaScript does not have any print object or print methods. You cannot access output devices from JavaScript.
+     -->
+ 
+     
+
+</body>
+</html>
+
+<!-- 
+Javascript examples - 
+
+<button type="button" onclick="document.getElementById('demo').innerHTML = Date()"> Click me to display Date and Time. </button>
+<p id="demo"></p> 
+
+document.getElementById("demo").innerHTML = "Hello JavaScript"; 
+
+<button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Turn on the light</button>
+<img id="myImage" src="pic_bulboff.gif" style="width:100px">
+<button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Turn off the light</button>
+
+document.getElementById("demo").style.fontSize = "35px"; 
+
+document.getElementById("demo").style.display = "none"; 
+
+-->
