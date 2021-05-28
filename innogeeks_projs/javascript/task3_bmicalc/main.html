@@ -3,8 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="center_div">
+        <div class="main_container">
+            <div class="heading">BMI Calculator</div>
+            <div class="label">Enter Height (in cms):</div>
+            <input type="text" id="height">
+            <div class="label">Enter Weight (in Kgs):</div>
+            <input type="text" id="weight">
+            <button type="submit" id="get_bmi" onclick="calc_bmi()">Calculate BMI</button>
+            <div class="label" id="result">Please enter valid details!</div>
+            <div class="label" id="result_details">Invalid Input!</div>
+        </div>
+    </div>
     <script src="script.js"></script>
 </body>
 </html> 
