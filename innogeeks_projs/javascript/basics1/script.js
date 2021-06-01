@@ -37,6 +37,20 @@ var $$$ = 3424.545;
 console.log("Hello world", 18)
 console.log("Hello world" + 18)
 
-// JavaScript provides eight different data types which are undefined, null, boolean, string, symbol, bigint, number, and object.
+/*
+JavaScript provides eight different data types which are undefined, null, boolean, string, symbol, bigint, number, and object.
 
+In JavaScript, you can escape a quote from considering it as an end of string quote by placing a backslash (\) in front of the quote.
+var sampleStr = "Alan said, \"Peter is learning JavaScript\".";
+
+Other Escape Sequences - 
+	\'	single quote
+	\"	double quote
+	\\	backslash
+	\n	newline
+	\r	carriage return
+	\t	tab
+	\b	word boundary
+	\f	form feed
+*/
 
