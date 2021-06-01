@@ -37,4 +37,6 @@ var $$$ = 3424.545;
 console.log("Hello world", 18)
 console.log("Hello world" + 18)
 
+// JavaScript provides eight different data types which are undefined, null, boolean, string, symbol, bigint, number, and object.
+
 
