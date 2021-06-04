@@ -30,4 +30,3 @@ greeting = "World";         // we cant do this, as const var values cant be chan
 const testvar;      // this throws an error, because conts variables have to be initialized at the time of declaration.
 
 
-
