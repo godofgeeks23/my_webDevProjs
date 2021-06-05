@@ -36,4 +36,6 @@ arr = [1,2,3,4,56,6];           // this is not allowed
 arr.push(78);                   
 arr[2] = 789;
 
-// similarly for object also, except from declaring it completely, it can be modiefied ising its properties
+// similarly for object also, except from declaring it completely, it can be modified ising its properties...
+
+
