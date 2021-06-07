@@ -44,5 +44,3 @@ const person = {
 }
 person.age = 21;        // we can still do this...
 person["surname"] = "srivastava";   // and this also..
-
-
