@@ -5,8 +5,8 @@ class particle
         this.x = mouse.x;
         this.y = mouse.y;
         this.size = Math.random()*10+1;
-        this.speedx = Math.random()*3-1.5;
-        this.speedy = Math.random()*3-1.5;
+        this.speedx = Math.random()*5-1;
+        this.speedy = Math.random()*5-1;
         this.color = 'hsl('+hue+', 100%, 50%)';
     }
     update()
