@@ -66,8 +66,8 @@ function draw()
 init();
 function animate()
 {
-    // ctx.clearRect(0, 0, canvas.width, canvas.height);
-    ctx.fillStyle = 'rgba(0, 0, 0, 0.02)';
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    // ctx.fillStyle = 'rgba(0, 0, 0, 0.02)';
     ctx.fillRect(0, 0, canvas.width, canvas.height);
     draw();
     requestAnimationFrame(animate);
