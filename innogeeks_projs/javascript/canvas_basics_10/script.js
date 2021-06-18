@@ -13,7 +13,7 @@ const mouse = {
 };
 //////////////////////////////////////////////////
 const particlesArray = [];
-let hue = 1;
+// let hue = 1;
 canvas.addEventListener('click', function(event)
 {
     for(let i=0;i<5;i++)
@@ -23,7 +23,7 @@ canvas.addEventListener('mousemove', function(event)
 {
     mouse.x = event.x;
     mouse.y = event.y;
-    for(let i=0;i<5;i++)
+    for(let i=0;i<1;i++)
         particlesArray.push(new particle);
 });
 function init()
@@ -32,7 +32,6 @@ function init()
 }
 function draw()
 {   
-    
     for(let i=0;i<particlesArray.length;i++)
     {
         particlesArray[i].update();
@@ -44,7 +43,7 @@ function draw()
             const dx = particlesArray[i].x - particlesArray[j].x;
             const dy = particlesArray[i].y - particlesArray[j].y;
             const dist = Math.sqrt(dx*dx + dy*dy);
-            if(dist<100)
+            if(dist<80)
             {
                 ctx.beginPath();
                 ctx.strokeStyle = particlesArray[i].color;
@@ -52,7 +51,7 @@ function draw()
                 ctx.moveTo(particlesArray[i].x, particlesArray[i].y);
                 ctx.lineTo(particlesArray[j].x, particlesArray[j].y);
                 ctx.stroke();
-            }
+            } 
         }
         if(particlesArray[i].size<0.2) 
         {
@@ -60,14 +59,13 @@ function draw()
             i--;
         }
     }
-    hue++;
 }
 //////////////////////////////////////////////////
 init();
 function animate()
 {
     // ctx.clearRect(0, 0, canvas.width, canvas.height);
-    ctx.fillStyle = 'rgba(0, 0, 0, 0.02)';
+    ctx.fillStyle = 'rgba(0, 0, 0)';
     ctx.fillRect(0, 0, canvas.width, canvas.height);
     draw();
     requestAnimationFrame(animate);
