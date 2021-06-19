@@ -10,7 +10,7 @@ window.addEventListener('resize', function()
 const mouse = {
     x: null,
     y: null,
-    radius: 150
+    radius: 200
 };
 //////////////////////////////////////////////////
 const particlesArray = [];
@@ -27,13 +27,12 @@ canvas.addEventListener('mousemove', function(event)
 });
 function init()
 {
-    for(let i = 0; i<200;i++)
+    for(let i = 0; i<1000;i++)
     {
         let x = Math.random()*canvas.width;
         let y = Math.random()*canvas.height;
         particlesArray.push(new particle(x, y));
     }
-    
 }
 function draw()
 {   

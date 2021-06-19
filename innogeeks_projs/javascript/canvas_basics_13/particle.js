@@ -9,29 +9,35 @@ class particle
         this.baseY = this.y;
         this.density = (Math.random()*30)+1;
         this.color = 'white';
-        // this.speedx = Math.random()*5-1;
-        // this.speedy = Math.random()*5-1;
     }
     update()
     {
-        // this.x+=this.speedx;
-        // this.y+=this.speedy;
-        // if(this.size>0.2)
-        //     this.size-=0.2;
-        // if((this.x+this.size>canvas.width)||(this.x-this.size<0))
-        //     this.speedx*=-1;
-        // if((this.y+this.size>canvas.height)||(this.y-this.size<0))
-        //     this.speedy*=-1;
         let dx = mouse.x - this.x;
         let dy = mouse.y - this.y;
         let dist = Math.sqrt((dx*dx)+(dy*dy));
-        if(dist <100)
+        let forceDirX = dx/dist;
+        let forceDirY = dy/dist;
+        let maxDist = mouse.radius;
+        let force = (maxDist - dist)/maxDist;
+        let dirX = forceDirX*force*this.density;
+        let dirY = forceDirY*force*this.density;
+        if(dist<mouse.radius)
         {
-            this.size = 50;
+            this.x -= dirX;
+            this.y -= dirY;
         }
         else
         {
-            this.size = 3;
+            if(this.x!=this.baseX)
+            {
+                let dx = this.x - this.baseX;
+                this.x -= dx/10;
+            }
+            if(this.y!=this.baseY)
+            {
+                let dy = this.y - this.baseY;
+                this.y -= dy/10;
+            }
         }
     }
     draw()
@@ -42,4 +48,4 @@ class particle
         ctx.closePath();
         ctx.fill();
     }
-}
+} 
