@@ -24,7 +24,7 @@ function init() {
     ctx.fillStyle = 'white';
     ctx.font = '30px Verdana';
     ctx.fillText('Code', 10, 30);
-    const data = ctx.getImageData(10, 0, 90, 40);
+    const data = ctx.getImageData(10, 0, 90, 40); 
     for (let y = 0, y2 = data.height; y < y2; y++) {
         for (let x = 0, x2 = data.width; x < x2; x++) {
             if (data.data[(y * 4 * data.width) + (x * 4) + 3] > 128) {
