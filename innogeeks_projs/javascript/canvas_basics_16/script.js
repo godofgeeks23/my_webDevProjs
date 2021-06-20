@@ -22,22 +22,22 @@ canvas.addEventListener('mousemove', function (event) {
 });
 function init() {
     ctx.fillStyle = 'white';
-    ctx.font = '30px Verdana';
-    ctx.fillText('Code', 10, 30);
+    ctx.font = '22px Verdana';
+    ctx.fillText('CODE', 10, 30);
     const data = ctx.getImageData(10, 0, 90, 40); 
     for (let y = 0, y2 = data.height; y < y2; y++) {
         for (let x = 0, x2 = data.width; x < x2; x++) {
             if (data.data[(y * 4 * data.width) + (x * 4) + 3] > 128) {
-                let posx = x * 10 + 250;
-                let posy = y * 10 + 100;
+                let posx = x * 12 + 250;
+                let posy = y * 12 - 0;
                 particlesArray.push(new particle(posx, posy));
             }
         }
     }
 }
 function draw() {
+    let opacityVal = 1;
     for (let i = 0; i < particlesArray.length; i++) {
-        particlesArray[i].draw();
         particlesArray[i].update();
         for(let j = i+1;j<particlesArray.length;j++)
         {
@@ -45,14 +45,17 @@ function draw() {
             let dy = particlesArray[i].y - particlesArray[j].y;
             let distance = Math.sqrt(dx * dx + dy * dy);
             if (distance < 30) {
-                ctx.strokeStyle = 'white';
-                ctx.lineWidth = 0.8;
+                opacityVal = 1 - (distance/30);
+                green_val = opacityVal;
+                ctx.strokeStyle = 'rgba(255, 255, 255, '+opacityVal+')';
+                ctx.lineWidth = 2;
                 ctx.beginPath();
                 ctx.moveTo(particlesArray[i].x, particlesArray[i].y);
                 ctx.lineTo(particlesArray[j].x, particlesArray[j].y);
                 ctx.stroke();
             }
         }
+        particlesArray[i].draw();
     }
 }
 //////////////////////////////////////////////////
