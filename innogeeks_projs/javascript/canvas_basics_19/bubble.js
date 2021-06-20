@@ -1,5 +1,5 @@
-class particle {
-    constructor(x, y, color, size) {
+class bubble {
+    constructor(color, color, size) {
         this.x = x + canvas.width/2 - png.width*2;
         this.y = y + canvas.height/2 - png.height*2;
         this.size = size;
@@ -25,11 +25,11 @@ class particle {
         else {
             if (this.x != this.baseX) {
                 let dx = this.x - this.baseX;
-                this.x -= dx / 10;
+                this.x -= dx / 15;
             }
             if (this.y != this.baseY) {
                 let dy = this.y - this.baseY;
-                this.y -= dy / 10;
+                this.y -= dy / 15;
             }
         }
     }

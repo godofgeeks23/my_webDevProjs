@@ -1,7 +1,13 @@
-const canvas = document.getElementById('canvas1');
+const canvas = document.getElementById('canvas');
 const ctx = canvas.getContext('2d');
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
+
+const canvasbg = document.getElementById('canvasbg');
+const ctxbg = canvas.getContext('2d');
+canvasbg.width = window.innerWidth;
+canvasbg.height = window.innerHeight;
+
 window.addEventListener('resize', function () {
     canvas.width = window.innerWidth;
     canvas.height = window.innerHeight;
@@ -12,7 +18,8 @@ const mouse = {
     radius: 100
 };
 //////////////////////////////////////////////////
-const particlesArray = [];
+let bubbles = [];
+let bgbubbles = [];
 canvas.addEventListener('click', function (event) {
     console.log(mouse.x, mouse.y);
 });
@@ -20,8 +27,14 @@ canvas.addEventListener('mousemove', function (event) {
     mouse.x = event.x;
     mouse.y = event.y;
 });
+function addbubble() {
+    bgbubbles.push(new bubble('rgb(255, 194, 194)', 1.8));
+}
+function addbgbubble() {
+    bubbles.push(new bubble('rgb(255, 255, 255)', 2.5));
+}
 const png = new Image();
-png.src = 'img15.png';
+png.src = 'img4.png';
 function init() {
     let imageWidth = png.width;
     let imageHeight = png.height;
