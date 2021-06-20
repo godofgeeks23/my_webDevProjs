@@ -32,16 +32,16 @@ function init() {
     for (let x = 0; x < imageWidth; x++) {
         for (let y = 0; y < imageHeight; y++) {
             if (data.data[(y * 4 * data.width) + (x * 4) + 3] > 250) {
-                let color = 'rgb('+data.data[(y * 4 * data.width) + (x * 4)]+','+
-                data.data[(y * 4 * data.width) + (x * 4) + 1]+','+
-                data.data[(y * 4 * data.width) + (x * 4) + 2]+')';
-                particlesArray.push(new particle(x*4, y*4, color, 2));
+                let color = 'rgb(' + data.data[(y * 4 * data.width) + (x * 4)] + ',' +
+                    data.data[(y * 4 * data.width) + (x * 4) + 1] + ',' +
+                    data.data[(y * 4 * data.width) + (x * 4) + 2] + ')';
+                particlesArray.push(new particle(x * 4, y * 4, color, 2));
             }
         }
     }
 }
-window.addEventListener('load', (event) =>{
-    ctx.drawImage(png, 0,0);
+window.addEventListener('load', (event) => {
+    ctx.drawImage(png, 0, 0);
     console.log('page has been loaded');
     init();
 })
