@@ -1,12 +1,12 @@
 class particle {
-    constructor(x, y) {
-        this.x = x;
-        this.y = y;
-        this.size = 2.5;
-        this.baseX = this.x;
-        this.baseY = this.y;
+    constructor(x, y, color, size) {
+        this.x = x + canvas.width/2 - png.width*2;
+        this.y = y + canvas.height/2 - png.height*2;
+        this.size = size;
+        this.color = color;
+        this.baseX = x + canvas.width/2 - png.width*2;
+        this.baseY = y + canvas.height/2 - png.height*2;
         this.density = (Math.random() * 30) + 1;
-        this.color = 'white';
     }
     update() {
         let dx = mouse.x - this.x;
