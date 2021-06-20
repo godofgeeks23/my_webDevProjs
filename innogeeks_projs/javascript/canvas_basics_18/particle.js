@@ -2,7 +2,7 @@ class particle {
     constructor(x, y) {
         this.x = x;
         this.y = y;
-        this.size = 5;
+        this.size = 2.5;
         this.baseX = this.x;
         this.baseY = this.y;
         this.density = (Math.random() * 30) + 1;
@@ -18,21 +18,18 @@ class particle {
         let force = (maxDist - dist) / maxDist;
         let dirX = forceDirX * force * this.density;
         let dirY = forceDirY * force * this.density;
-        let colorval = (dist/(mouse.radius))*255;
-        this.color = 'rgb(0,'+colorval+',0)';
         if (dist < mouse.radius) {
             this.x -= dirX;
             this.y -= dirY;
         }
         else {
-            this.color = 'white';
             if (this.x != this.baseX) {
                 let dx = this.x - this.baseX;
-                this.x -= dx / 10;
+                this.x -= dx / 15;
             }
             if (this.y != this.baseY) {
                 let dy = this.y - this.baseY;
-                this.y -= dy / 10;
+                this.y -= dy / 15;
             }
         }
     }
