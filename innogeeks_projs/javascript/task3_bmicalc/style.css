@@ -51,6 +51,7 @@ button
     border: 0;
     padding: 10px 20px;
     background: #303136;
+    background: #7f8082;
     color: whitesmoke;
     font-weight: bold;
     transition: box-shadow 0.3s, background 0.3s;

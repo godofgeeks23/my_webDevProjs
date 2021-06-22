@@ -1,13 +1,10 @@
-*
-{
+* {
     box-sizing: border-box;
 }
-body
-{
+body {
     background: grey;
 }
-canvas1
-{
+canvas1 {
     position: absolute;
     top: 0;
     left: 0;
@@ -15,7 +12,7 @@ canvas1
     height: 100%;
 
 }
-footer{
+footer {
     position: absolute;
     height: 50px;
     left: 0;

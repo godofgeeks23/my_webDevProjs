@@ -1,0 +1,43 @@
+#canvas1
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+body
+{
+    background-image: url("backg.jpg");
+    background-size:cover;
+    background-attachment: fixed;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container
+{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    text-align: center;
+    margin:auto;
+    padding: auto;
+}
+.list_item
+{
+    padding: 10px;
+    background: white;
+    background: #303136;
+    background: #7f8082;
+    color: white;
+    margin: 10px;
+    transition: box-shadow 0.2s, background 0.2s;
+    text-decoration: none;
+}
+.list_item:hover
+{
+    box-shadow: 0 20px 38px rgba(0,0,0,0.30), 0 15px 10px rgba(0,0,0,0.22);
+    background: #666668;
+}
