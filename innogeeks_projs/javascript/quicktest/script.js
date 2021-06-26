@@ -1,3 +1,3 @@
-// for quick javaScript tests
+// this is for quick javaScript tests
 
 
