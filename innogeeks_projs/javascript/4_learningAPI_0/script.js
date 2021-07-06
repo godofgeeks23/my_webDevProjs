@@ -1,4 +1,4 @@
-// start learning to use APIs in JavaScript
+// starting to learn how to use APIs in JavaScript
 
 // fetch() can both retrieve(get()) and send(post())
 // fetch() is a asynchronous function
