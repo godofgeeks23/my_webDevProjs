@@ -1,8 +1,11 @@
 // console.log("Hellow world");
 
+
 const Discord = require('discord.js');
 const client = new Discord.Client();
-client.login('ODYzMDA1NTA5ODcxMjA2NDMx.YOgmgw.EsoluPCgJ2nwAU4-Z8tMHKB21vk');
+require("dotenv").config();
+console.log(process.env);
+client.login(process.env.TOKEN);
 client.on('ready', readyDiscord);
 
 const replies = [
@@ -24,6 +27,7 @@ function gotMessage(msg)
 {
     console.log(msg.content);
     // msg.channel.id      // return the id of the channel from which the message belongs
+    // const index = Math.floor(Math.random()*replies.length);
     if(msg.content.toLowerCase() == 'hello beta') 
     {
         msg.reply("hello papa");
