@@ -24,25 +24,25 @@ function gotMessage(msg)
 {
     console.log(msg.content);
     // msg.channel.id      // return the id of the channel from which the message belongs
-    if(msg.content == 'hello beta') 
+    if(msg.content.toLowerCase() == 'hello beta') 
     {
         msg.reply("hello papa");
     }
-    if(msg.content == 'kaise ho beta') 
+    if(msg.content.toLowerCase() == 'kaise ho beta') 
     {
         msg.reply("thk hu papa... aap btao");
     }
-    if(msg.content == 'm bhi thk hu beta') 
+    if(msg.content.toLowerCase() == 'm bhi thk hu beta') 
     {
         msg.reply("bdyaa papa");
     }
-    if(msg.content == 'haso beta') 
+    if(msg.content.toLowerCase() == 'haso beta') 
     {
         msg.reply("😂😂");
     }
-    if(msg.content == 'bye beta') 
+    if(msg.content.toLowerCase() == 'bye beta') 
     {
-        msg.reply("bye papa 👋");
+        msg.reply("bye bye papa👋");
     }
 }
 
