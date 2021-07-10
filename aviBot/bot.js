@@ -22,9 +22,11 @@ const replies = [
 client.on('message', gotMessage);
 
 function gotMessage(msg) {
-    console.log(msg.content);
+    
+    // console.log(msg.content);
     // msg.channel.id      // return the id of the channel from which the message belongs
     // const index = Math.floor(Math.random()*replies.length);
+
     if (msg.content.toLowerCase() == 'hello beta')
         msg.reply("hello papa");
     else if (msg.content.toLowerCase() == 'kaise ho beta')
