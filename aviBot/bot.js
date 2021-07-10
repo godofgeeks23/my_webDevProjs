@@ -3,8 +3,8 @@
 
 const Discord = require('discord.js');
 const client = new Discord.Client();
-require("dotenv").config();
-console.log(process.env);
+require('dotenv').config();
+console.log(process.env.TOKEN);
 client.login(process.env.TOKEN);
 client.on('ready', readyDiscord);
 
@@ -48,6 +48,9 @@ function gotMessage(msg)
     {
         msg.reply("bye bye papa👋");
     }
+    
+    
+
 }
 
 
