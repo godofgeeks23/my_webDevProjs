@@ -51,8 +51,32 @@ function gotMessage(msg) {
         msg.reply("sbhi aunty uncle ko 🙏🙏");
     else if (msg.content.toLowerCase() == 'chlo so jao beta')
         msg.reply("ok good night papa");
-    else if (msg.content.toLowerCase() == 'aur beta padhai kaisi chl rhi')
-        msg.reply("😶😴😴");
+    else if (msg.content.toLowerCase() == 'beta gf h?')
+        msg.reply("maroge to nh papa");
+    else if (msg.content.toLowerCase() == 'nh beta')
+        msg.reply("hn h papa");
+    else if (msg.content.toLowerCase() == 'good beta')
+        msg.reply("thanks papa");
+    else if (msg.content.toLowerCase() == 'naam btao beta gf ka')
+        msg.reply("nh papa... usne mna kiya h");
+    else if (msg.content.toLowerCase() == 'naam btao beta kch nh krunga')
+        msg.reply("nh papa... aap bad m peloge");
+    else if (msg.content.toLowerCase() == 'beta engineering kr lo')
+        msg.reply("nh papa mjhe chacha jaisa nh ban na");
+    else if (msg.content.toLowerCase() == 'beta ab bta do naam... koi kch nh khega')
+        msg.reply("pakka papa?");
+    else if (msg.content.toLowerCase() == 'hn beta bta do... pakka')
+        msg.reply("papa mjhe ldke psnd hn");
+    else if (msg.content.toLowerCase() == 'koi nh beta... kon h wo ldka??')
+        msg.reply("chacha...");
+    else if (msg.content.toLowerCase() == 'konse chacha??')
+        msg.reply("shashank chacha.");
+    else if (msg.content.toLowerCase() == 'whi kyo beta??')
+        msg.reply("kyoki unhone chacha se alag wala pyar diya h mjhe hmesha");
+    else if (msg.content.toLowerCase() == 'hainn 😶😶')
+        msg.reply("hn papa.");
+
+    
 
 
 }
