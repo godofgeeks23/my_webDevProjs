@@ -69,12 +69,22 @@ function gotMessage(msg) {
         msg.reply("papa mjhe ldke psnd hn");
     else if (msg.content.toLowerCase() == 'koi nh beta... kon h wo ldka??')
         msg.reply("chacha...");
-    else if (msg.content.toLowerCase() == 'konse chacha??')
+    else if (msg.content.toLowerCase() == 'konse chacha??konse chacha??')
         msg.reply("shashank chacha.");
     else if (msg.content.toLowerCase() == 'whi kyo beta??')
-        msg.reply("kyoki unhone chacha se alag wala pyar diya h mjhe hmesha");
+        msg.reply("kyoki unhone chacha se jada wala pyar diya h mjhe hmesha");
     else if (msg.content.toLowerCase() == 'hainn 😶😶')
         msg.reply("hn papa.");
+    else if (msg.content.toLowerCase() == 'beta chachi ka naam btao')
+        msg.reply("wo anu btayegi papa.");
+    else if (msg.content.toLowerCase() == 'anu shi bol rhi h kya beta?')
+        msg.reply("hn papa... meri sautan h chachi");
+    else if (msg.content.toLowerCase() == 'mmy ka naam btao beta')
+        msg.reply("mmy maan ");
+    else if (msg.content.toLowerCase() == 'beta akanksha aunty ko hello bolo')
+        msg.reply("hello aakansha aunty ");
+    else if (msg.content.toLowerCase() == 'beta papa ka naam btao')
+        msg.reply("avi h papa mera. baki sab ko to mze m papa bolta hu");
 
     
 
