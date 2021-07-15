@@ -81,11 +81,11 @@ function gotMessage(msg) {
     
 }
 
-function buttonSendMsg()
-{
-    console.log("Function Called!");
-    const channel = client.channels.cache.get('863008204475334669');
-    channel.send('<content>');
-}
+// function buttonSendMsg()
+// {
+//     console.log("Function Called!");
+//     const channel = client.channels.cache.get('863008204475334669');
+//     channel.send('<content>');
+// }
 
 
