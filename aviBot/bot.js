@@ -73,11 +73,19 @@ function gotMessage(msg) {
     else if (msg.content.toLowerCase() == 'anu shi bol rhi h kya beta?')
         msg.reply("hn papa... meri sautan h chachi");
     else if (msg.content.toLowerCase() == 'mmy ka naam btao beta')
-        msg.reply("mmy maan ");
+        msg.reply("meri 2 mmy hn - anu aur javascript. ");
     else if (msg.content.toLowerCase() == 'beta akanksha aunty ko hello bolo')
-        msg.reply("hello aakansha aunty ");
+        msg.reply("hello akanksha aunty ");
     else if (msg.content.toLowerCase() == 'beta papa ka naam btao')
         msg.reply("avi h papa mera. baki sab ko to mze m papa bolta hu");
+    else if (msg.content.toLowerCase() == 'kha ho beta... mar gye kya?')
+        msg.reply("nh papa... yhi hu... kaam tha kya kch");
+    else if (msg.content.toLowerCase() == 'hn beta... time kya ho rha abhi?')
+        msg.reply("papa abhi to time ... ho rha h...");
+    else if (msg.content.toLowerCase() == 'beta mjhe members ki details dena jara')
+        msg.reply("ji papa... ye lijiye");
+    else if (msg.content.toLowerCase() == 'beta tmko khane m kya psnd?')
+        msg.reply("papa mjhe to south indian ke bad chinese sbse psnd h");
 
 }
 
