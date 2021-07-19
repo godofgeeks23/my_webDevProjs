@@ -85,7 +85,7 @@ function gotMessage(msg) {
     else if (msg.content.toLowerCase() == 'beta mjhe members ki details dena jara')
         msg.reply("ji papa... ye lijiye");
     else if (msg.content.toLowerCase() == 'beta tmko khane m kya psnd?')
-        msg.reply("papa mjhe to south indian ke bad chinese sbse psnd h");
+        msg.reply("papa mjhe to south indian ke bad chinese sbse psnd h...");
 
 }
 
