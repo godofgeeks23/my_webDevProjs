@@ -86,7 +86,8 @@ function gotMessage(msg) {
         msg.reply("ji papa... ye lijiye");
     else if (msg.content.toLowerCase() == 'beta tmko khane m kya psnd?')
         msg.reply("papa mjhe to south indian ke bad chinese sbse psnd h...");
-
+    else
+        msg.reply("thk se type kro yrr...");
 }
 
 // function buttonSendMsg()
