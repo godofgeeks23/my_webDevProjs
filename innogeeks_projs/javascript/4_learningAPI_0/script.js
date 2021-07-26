@@ -9,7 +9,7 @@ fetch('rainbow.jpg').then(response => {
     console.log(response);
     return response.blob();
 }).then(blob => {
-    console.log(blob);
+    console.log(blob);      // see what blob looks like
     // document.getElementById('rainbow').src = blob;  // the blob object is not in the format in which it is expected by the dom element
     document.getElementById('rainbow').src = URL.createObjectURL(blob);
 });
