@@ -81,7 +81,7 @@ function gotMessage(msg) {
     else if (msg.content.toLowerCase() == 'kha ho beta... mar gye kya?')
         msg.reply("nh papa... yhi hu... kaam tha kya kch");
     else if (msg.content.toLowerCase() == 'hn beta... time kya ho rha abhi?')
-        msg.reply("papa abhi to time ... ho rha h...");
+        msg.reply("papa abhi to time " + (new Date().toLocaleTimeString()) + "ho rha h...");
     else if (msg.content.toLowerCase() == 'beta mjhe members ki details dena jara')
         msg.reply("ji papa... ye lijiye");
     else if (msg.content.toLowerCase() == 'beta tmko khane m kya psnd?')
