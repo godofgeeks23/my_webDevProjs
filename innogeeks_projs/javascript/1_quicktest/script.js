@@ -1,3 +1,3 @@
-// to test some javascript code
+// to test some random javascript code
 
 
