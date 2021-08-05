@@ -2,6 +2,10 @@
 
 <head>
 
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    
     <title>e-commerce </title>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
@@ -17,7 +21,7 @@
 
     <style>
         .nav {
-            background-color: rgb(136, 230, 211);
+            background-color: rgb(121, 224, 204);
             z-index: 9;
             padding: 1px;
             padding-left: 20px;
@@ -68,7 +72,7 @@
         .nav_side a:hover {
 
 
-            color: white;
+            color: rgb(255, 255, 255);
 
             transition: all 0.5s ease;
 
@@ -80,31 +84,33 @@
             background-size: cover;
             background-repeat: no-repeat;
             background-attachment: fixed;
-            height: 90vh;
+            height: 85vh;
+            opacity: 0.85;
 
 
         }
 
         .main .main_content {
-            padding-top: 195px;
-            margin-left: 10%;
-            margin-right: 10%;
+            padding-top: 200px;
+            margin-left: 10px;
+            margin-right: 10px;
             text-align: center;
         }
 
         .main .main_content h2 {
-            color: rgb(13, 100, 78);
+            margin-top: 10px;
+            color: rgb(8, 90, 69);
             text-shadow: 3px 3px 2px rgba(136, 230, 211, 0.979);
             font-size: 40px;
             font-family: cosmic, sans-serif;
             font-weight: bolder;
-
+            margin-bottom: 7px;
 
         }
 
         .main .main_content span {
             color: black;
-
+           padding-top: 0px;
             margin-left: 60px;
             font-size: 30px;
             font-family: cosmic, sans-serif;
@@ -113,7 +119,7 @@
         }
 
         .main .main_content .btn {
-            margin-top: 60px;
+            margin-top: 50px;
             margin-left: 40px;
 
         }
@@ -123,7 +129,7 @@
             text-decoration: none;
             margin: 40px;
 
-            padding: 15px 20px;
+            padding: 15px 15px;
             background-color: rgb(247, 243, 228);
             font-family: cosmic, sans-serif;
             text-align: center;
@@ -138,11 +144,12 @@
             color: black;
             border: none;
             border-bottom: 2.5px solid black;
+            transition: all 0.5s ease;
 
         }
 
         .product {
-            padding: 30px;
+            padding: 10px;
             text-align: center;
         }
 
@@ -155,13 +162,14 @@
 
         .product .product_container {
             display: flex;
-            margin-left: 1%;
-            margin-right: 1%;
+            margin-left: 10px;
+            margin-right: 10px;
 
 
         }
 
         .product .product_container .item {
+            transition: all 0.5s ease;
             width: 33.33%;
             margin: 10px;
             height: auto;
@@ -170,6 +178,7 @@
         }
 
         .product .product_container .item:hover {
+            transition: all 0.5s ease;
             box-shadow: 0px 3px 60px 0px rgba(0, 0, 0, 0.15);
             transform: scale(1.05);
         }
@@ -206,7 +215,7 @@
             text-decoration: none;
             margin: 30px;
 
-            padding: 10px 15px;
+            padding: 8px 10px;
             background-color: white;
             font-family: cosmic, sans-serif;
             text-align: center;
@@ -216,6 +225,7 @@
         }
 
         .product .product_container .item .item_content a:hover {
+            transition: all 0.5s ease;
             background-color: rgb(186, 235, 225);
             color: rgb(85, 81, 81);
             border: none;
@@ -246,6 +256,7 @@
         }
 
         .product .allproducts_btn a:hover {
+            transition: all 0.5s ease;
             background-color: rgb(179, 224, 228);
             color: rgb(13, 100, 78);
             border: none;
@@ -367,35 +378,133 @@
 
             background-color: rgb(204, 194, 194);
             margin-top: 50px;
-            padding-bottom: 10px;
+            padding: 50px;
+        }
+        footer .foot_log img{
+            border-radius: 50%;
         }
 
-        footer.pages {
+       
+        footer .pages{
             text-align: center;
         }
-
-        footer.pages h3 {
-
-            color: black;
+        footer .pages h3{
+            color:black;
             font-size: 20px;
-            font-family: cosmic, sans-serif;
+            font-family: cosmic, sans-serif ;
             padding: 5px;
+        }
+        footer .pages a{
+            text-decoration: none;
+            margin:10px;
+            color:rgb(15, 105, 83) ;
+            font-size: 15px;
+            font-family: cosmic, sans-serif ;
+        }
+        footer .pages a:hover{
+            transition: all 0.5s ease;
+            color:white;
+        }
+        footer .docs{
+            text-align: center;
+        }
+        footer .docs h3{
+            color:black;
+            font-size: 20px;
+            font-family: cosmic, sans-serif ;
+            padding: 5px;
+        }
+        footer .docs a{
+            text-decoration: none;
+            margin:10px;
+            color:rgb(15, 105, 83) ;
+            font-size: 15px;
+            font-family: cosmic, sans-serif ;
+        }
+        footer .docs a:hover{
+            transition: all 0.5s ease;
+            color:white;
+        }
+      
+        footer .social{
+            text-align: center;
+        }
+        footer .social h3{
+            color:black;
+            font-size: 20px;
+            font-family: cosmic, sans-serif ;
+            padding: 5px;
+        }
+        footer .social a{
+            color:teal;
+            margin: 10px;
+        }
+        footer .social a:hover{
+            transition: all 0.5s ease;
+            color:white;
+        }
+        footer .contact{
+            text-align: center;
+        }
+        footer .contact h3{
+            color:black;
+            font-size: 20px;
+            font-family: cosmic, sans-serif ;
+            padding: 5px;
+        }
+        footer .contact a{
+            color:teal;
+            margin: 10px;
+        }
+        footer .contact a:hover{
+            transition: all 0.5s ease;
+            color:white;
+        }
+        footer .payment{
+            text-align: center;
+        }
+        footer .payment h3{
+            color:black;
+            font-size: 20px;
+            font-family: cosmic, sans-serif ;
+            padding: 5px;
+        }
+        footer .payment a{
+            color:teal;
+            margin: 10px;
+        }
+        footer .payment a:hover{
+            transition: all 0.5s ease;
+            color:white;
+        }
+        @media screen and (max-width:480px){
+            .product .product_container{
+                display:grid;
+            }
+            .nav{
+                display:grid;
+            }
+           
+            .key_points .key_container{
+                display: grid;
+            }
+
         }
     </style>
 </head>
-
 <body>
+   
     <nav class="nav nav_top">
         <div class="logo">
             <a href="#"><img src="https://www.logogarden.com/wp-content/uploads/2020/09/decor-furniture-logo-7.png"
                     height="110px" width="120px"></a>
         </div>
         <div class="nav_side">
-            <a href="About.html">About Us</a>
+            <a href="Aboutus.html">About Us</a>
             <a href="Services.html">Services</a>
             <a href="Blog.html">Blogs</a>
             <a href="Contact.html">Contact Us</a>
-            <a href="Login/Signup.html">Login/Sign Up <i class="fas fa-user"></i></a>
+            <a href="Login_signup.html">Login/Sign Up <i class="fas fa-user"></i></a>
         </div>
     </nav>
     <div class="main">
@@ -405,7 +514,7 @@
             <br>
 
             <div class="btn">
-                <a href="#">Buy Now</a>
+                <a href="Services.html">Buy Now</a>
             </div>
         </div>
     </div>
@@ -414,46 +523,46 @@
         <div class="product_container">
             <div class="item">
                 <div class="item_img">
-                    <img
+                    <img class="img-responsive"
                         src="https://ii1.pepperfry.com/media/catalog/product/a/m/568x284/amanda-corner-sofa-in-dark-grey-colour-by-primrose-amanda-corner-sofa-in-dark-grey-colour-by-primros-rieo58.jpg">
                 </div>
                 <div class="item_content">
                     <h1>Classy and Comfy Sofas</h1>
                     <h4>Astonishing 3 Seater Sofa in Shiny Light Grey Colour
                         by Dreams Furniture</h4>
-                    <a href="">Buy Now</a>
+                    <a href="Services.html">Buy Now</a>
                 </div>
 
             </div>
             <div class="item">
                 <div class="item_img">
-                    <img
+                    <img class="img-responsive"
                         src="https://ii1.pepperfry.com/media/catalog/product/q/u/568x284/queen-size-bed-in-dark-oak-grey-finish-by-alsapan-queen-size-bed-in-dark-oak-grey-finish-by-alsapan-7f8a5e.jpg">
                 </div>
                 <div class="item_content">
                     <h1>Upholstered Beds</h1>
                     <h4>Exquisite King Size Upholstered Bed in Dark Grey Colour
-                        by Dreamzz Furniture</h4>
-                    <a href="">Buy Now</a>
+                        by Dreams Furniture</h4>
+                    <a href="Services.html">Buy Now</a>
                 </div>
 
             </div>
             <div class="item">
                 <div class="item_img">
-                    <img
+                    <img class="img-responsive"
                         src="https://images.woodenstreet.de/image/cache/data%2Flounge-chairs%2Fcrisper-lounge-chair%2Frevised%2Fbeige-pomme%2Ffront-574x396.jpg">
                 </div>
                 <div class="item_content">
                     <h1> Scarlet Sivel Lounge chairs</h1>
                     <h4>Dublin lounge Chairs and a coffee Table in Light Grey Shade (Set of 4)</h4>
-                    <a href="">Buy Now</a>
+                    <a href="Services.html">Buy Now</a>
                 </div>
 
             </div>
         </div>
 
         <div class="allproducts_btn">
-            <a href="service.html">Explore More Products</a>
+            <a href="Services.html">Explore More Products</a>
 
         </div>
     </div>
@@ -471,12 +580,12 @@
                 <li>Response to people’s top questions about the product</li>
             </div>
             <div class="key_img">
-                <img src="https://azaneka.com/wp-content/uploads/2018/11/kepercayaan-pelanggan.png">
+                <img class="img-fluid" src="https://azaneka.com/wp-content/uploads/2018/11/kepercayaan-pelanggan.png">
             </div>
         </div>
     </div>
     <div class="testi">
-        <h2>Our Clients</h2>
+        <h2>Our Customers</h2>
         <div class="testi_container">
             <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
                 <!-- Indicators -->
@@ -544,11 +653,11 @@
             </div>
             <div class="pages">
                 <h3>Pages</h3>
-                <a href="#">About Us</a>|
-                <a href="">Services</a>|
+                <a href="Aboutus.html">About Us</a>|
+                <a href="Services.html">Services</a>|
                 <a href="">Blogs</a>|
-                <a href="">Login</a>|
-                <a href="">Sign Up</a>
+                <a href="Login_signup.html">Login</a>|
+                <a href="Login_signup.html">Sign Up</a>
             </div>
             <div class="docs">
                 <h3>Documents</h3>
@@ -558,16 +667,23 @@
             </div>
             <div class="social">
                 <h3>Follow Us</h3>
-                <a href=""></a>
-                <a href=""></a>
-                <a href=""></a>
-                <a href=""></a>
+                <a href="https://www.facebook.com/Lavish-decor-381293115574049/" target="_blank"><i class="fab fa-facebook-f" style='font-size:30px' ></i></a>
+                <a href="https://twitter.com/lavish_interior?lang=en" target="_blank"><i class="fab fa-twitter" style='font-size:30px'></i></a>
+                <a href="https://www.instagram.com/lavish_interior_decor/?hl=en"target="_blank"><i class="fab fa-instagram" style='font-size:30px'></i></a>
+                <a href="https://www.linkedin.com/in/lavish-decor-home-furnishing-4021709/" target="_blank"><i class="fab fa-linkedin-in" style='font-size:30px'></i></a>
             </div>
             <div class="contact">
                 <h3>Contact Us</h3>
-                <a href=""></a>
-                <a href=""></a>
-                <a href=""></a>
+                <a href="tel:+913857346592"><i class="fas fa-phone-alt"  style='font-size:30px'></i></a>
+                <a href="http://api.Whatsapp.com/send?phone=+916388700793" target="_blank"><i class="fab fa-whatsapp"  style='font-size:30px'></i></a>
+                <a href="mailto:supportlavish@decor.ai"><i class="fas fa-envelope"  style='font-size:30px'></i></a>
+            </div>
+            <div class="payment">
+                <h3>Payment Modes</h3>
+                <a href=""><i class="fab fa-cc-visa"  style='font-size:30px'></i></a>
+                <a href=""><i class="fab fa-cc-mastercard" style='font-size:30px'></i></a>
+                <a href=""><i class="fab fa-google-pay"  style='font-size:30px'></i></a>
+                <a href=""><i class="fab fa-bitcoin"  style='font-size:30px'></i></a>
             </div>
             <hr>
             <p>Copyright &copy; 2021 Lavis Decor.All Rights Reserved</p>
@@ -582,4 +698,7 @@
             crossorigin="anonymous"></script>
 </body>
 
+</html>
+
+</body>
 </html>
