@@ -1,0 +1,98 @@
+body{
+	background-image: url("backg.png");
+	font-family: Calibri;
+}
+.top-bar{
+	display: flex;
+	flex-direction: row;
+	padding: 30px;
+	align-items: center;
+	font-size: 18px;
+	color: gainsboro;
+	font-weight: bold;
+}
+.userprofile{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.top-bar-left{
+	flex-grow: 4;
+}
+.searchbar{
+	margin: 0px 20px;
+	border: 2px solid #ccc;
+	padding: 10px 20px;
+	border-radius: 40px;
+	flex-grow: 1;
+}
+.userimgpic{
+	border-radius: 50%;
+	margin: 0px 10px;
+}
+.middlecontainer{
+	padding: 100px 20px;
+	color: gainsboro;
+}
+.middleheading{
+	font-size: 60px;
+	margin: 30px 0px;
+	color: white;
+	font-weight: bold;
+}
+.middlebody{
+	font-size: 22px;
+	margin: 20px 0px;
+}
+.button{
+	padding: 15px 25px;
+	margin: 50px 0px;
+	border-radius: 5px;
+	font-size: 20px;
+	background: #11cdef;
+	width: 120px;
+	text-align: center;
+	font-weight: bold;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.bottomcontainer{
+	border-radius: 10px;
+	background: white;
+	padding: 20px;
+	margin: 0px 30px;
+	height: 120px;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.userpiclarge{
+	border-radius: 50%;
+	margin: 0px 10px;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.leftbutton, .rightbutton {
+	padding: 10px 20px;
+	width: 70px;
+	text-align: center;
+	position: absolute;
+	color: white;
+	font-weight: bold;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.leftbutton{
+	background: #11cdef;
+	left: 80px;
+}
+.rightbutton{
+	background: #172b4d;
+	right: 80px;
+}
+.userimgcenter{
+	position: absolute;
+	left: 45%;
+	top: 85%;
+}
+
+
+
+
+
+
