@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <style>
+        body{
+            background-color: rgb(19, 0, 124);
+            color: white;
+            height: 100vh;
+            font-family: cursive;
+            font-size: 2rem;
+        }
+        table {
+            margin: auto;
+
+        }
+        table td{
+            padding: 1rem 2rem;
+            text-align: center;
+        }
+        .btn{
+            color: rgb(11, 75, 45);
+            font-weight: bold;
+            border-radius: 20px;
+            width: 6rem;
+            height: 5vh;
+        }
+        input{
+            color: rgb(11, 75, 45);
+            font-weight: bold;
+            border-radius: 20px;
+            height: 5vh;
+            width:15rem;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <form action="data.php" name="login" method="GET">
+        <table>
+            <tr>
+                <td>UserName:</td>
+                <td> <input type="text " name="uname"> </td>
+            </tr>
+            <tr>
+                <td>Password:</td>
+                <td><input type="password" name="pass"> </td>
+            </tr>
+            <tr>
+                <td><input type="submit" class="btn" value="LOGIN"></td>
+                <td><input type="reset" class="btn" value="RESET"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
