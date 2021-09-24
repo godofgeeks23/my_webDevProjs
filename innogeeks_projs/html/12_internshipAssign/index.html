@@ -1,0 +1,137 @@
+<html> 
+<head> 
+    <title>Sign up</title> 
+    <meta name="viewport" content="width=device-width, 
+initial-scale=1.0"> 
+    <link 
+href="https://fonts.googleapis.com/css?family=Josefin+Sans
+" rel="stylesheet"> 
+    <link 
+href="https://fonts.googleapis.com/css?family=Cabin" 
+rel="stylesheet"> 
+    <link 
+href="https://fonts.googleapis.com/css?family=Work+Sans" 
+rel="stylesheet"> 
+    </head> 
+<body> 
+    <center><div class="box"> 
+    <form> 
+        <br> 
+        <label for="txt1" style="margin-left:-268px;">First 
+Name</label><br> 
+        <input type="text" name="txt1" placeholder="Your 
+name.."><br><br> 
+        <label for="txt2" style="margin-left:-270px;">Last 
+Name</label><br> 
+        <input type="text" name="txt2" placeholder="Your 
+last name.."><br><br> 
+        <label for="txt3" style="margin-left:-
+270px;">Username</label><br> 
+        <input type="text" name="txt3" placeholder="Choose 
+a username.."><br><br> 
+        <label for="txt4" style="margin-left:-
+302px;">Email</label><br> 
+        <input type="text" name="txt4" placeholder="Your 
+email.."><br><br> 
+        <label for="txt5" style="margin-left:-
+127px;">Password (6 or more characters)</label><br> 
+        <input type="password" name="txt5" 
+placeholder="Enter a password.."><br> 
+        <span class="pass">Re-type Password</span><br> 
+        <input type="password" name="txt6" 
+placeholder="Re-enter password.." id="pass"><br> 
+        <span class="text">By clicking Sign up, you agree to 
+our User Agreement,<br> Privacy Policy, and Cookie 
+Policy.</span> 
+ 
+        <input type="submit" value="Sign up" style="font-
+family:work sans;font-size: 12pt;"> 
+        </form> 
+        </div></center> 
+    <style> 
+    body { 
+    background: linear-gradient(270deg,rgba(36,45,61,0) 
+0,rgba(36,45,61,.6) 100%), url('background.jpg') no-repeat 
+center;  
+    width:95%; 
+    height:90%; 
+} 
+.box{ 
+background-color:  rgba(0,0,0,0.5); 
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 
+rgba(0, 0, 0, 0.19); 
+    display:inline-block; 
+    height:600px; 
+    width:400px; 
+    font-family: cabin; 
+    color:white; 
+    margin-top:0px; 
+    margin-left: 60px; 
+} 
+input[type=text] { 
+    width: 360px; 
+    height:40px; 
+    padding:0px 20px; 
+    display: inline-block; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+     border:0.5px solid grey; 
+    margin-left: 0px; 
+    outline:none; 
+    font-family:work sans; 
+} 
+input[type=password] { 
+    width: 360px; 
+    height:40px; 
+    padding:0px 20px; 
+    display: inline-block; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+     border:0.5px solid grey; 
+    margin-left: 0px; 
+ 
+    outline:none; 
+    font-family:work sans; 
+} 
+#pass{ 
+    margin-top: 0px; 
+    position: absolute; 
+    margin-left: -180px; 
+} 
+.pass{ 
+    margin-left:-220px;  
+    margin-top: 20px; 
+    position: relative; 
+    display: inline-block; 
+} 
+.text{ 
+    font-family: cabin;  
+    font-size: 9pt;  
+    text-align-last:center;  
+    color:rgb(131, 132, 135); 
+    margin-top: 40px; 
+    display: inline-block; 
+} 
+input[type=submit] { 
+    width: 340px; 
+    background-color: red; 
+    color: white; 
+    padding: 14px 20px; 
+    margin: 8px 0; 
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer; 
+    text-align: center; 
+} 
+input[type=submit]:hover { 
+    background-color: rgb(232, 6, 6); 
+} 
+input[type=text]:focus{ 
+    border:2px solid red; 
+} 
+input[type=password]:focus{ 
+    border:2px solid red; 
+} 
+    </style> 
+    </body> 
+</html>
