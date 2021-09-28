@@ -1,7 +1,8 @@
 body {
-	background-color: #05c46b;
+	/* background-color: #05c46b; */
 	font-family: Verdana;
 	text-align: center;
+	background-image: radial-gradient(#5680E9, #5AB9EA, #C1C8E4);
 }
 form {
 	background-color: #fff;
@@ -36,7 +37,8 @@ form {
 	width: auto;
 }
 button {
-	background-color: #05c46b;
+	/* background-color: #05c46b; */
+	background-image: linear-gradient(to right, #8860D0 , #5AB9EA);
 	border: 1px solid #777;
 	border-radius: 2px;
 	font-family: inherit;
