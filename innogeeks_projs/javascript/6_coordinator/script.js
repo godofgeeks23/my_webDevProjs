@@ -1,3 +1,5 @@
+// teaching javascript strings for innogeeks coordinator
+
 // strings in javascript
 
 let name1 = "aviral";	// double quotes
