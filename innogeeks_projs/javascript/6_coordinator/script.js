@@ -43,7 +43,7 @@ console.log(test2);
 console.log(test.toUpperCase());
 
 // slice function - get a part of the string
-slice(start index, end index+1)
+// slice(start index, end index+1)
 console.log(name1.slice(0, 3));
 console.log(name1.slice(1));
 
