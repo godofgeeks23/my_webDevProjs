@@ -1,5 +1,5 @@
 var myName = "Aviral Srivastava";
-var strLength = nyName.length;
+var strLength = myName.length;
 console.log(strLength);
 
 // In JavaScript, String values are immutable, which means that they cannot be altered once created.
@@ -93,15 +93,15 @@ typeof("Helo")      // string
 // Logical operators - &&, ||,  
 
 // switch case in JS
-switch(lowercaseLetter) {
-  case "a":
-    console.log("A");
-    break;
-  case "b":
-    console.log("B");
-    break;
-  default:
-    defaultStatement;
-    break;
-}
+// switch(lowercaseLetter) {
+//   case "a":
+//     console.log("A");
+//     break;
+//   case "b":
+//     console.log("B");
+//     break;
+//   default:
+//     defaultStatement;
+//     break;
+// }
 // case values are tested with strict equality (===)
