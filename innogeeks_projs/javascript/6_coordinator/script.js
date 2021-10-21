@@ -66,10 +66,10 @@ console.log(mynum1, typeof mynum1);
 let mynum2 = +mystr;
 console.log(mynum2, typeof mynum2);
 
-// concatenation of strings
+// concatenation of strings in javascript
 let final = "my name is " + name1 + ", and i love coding";
 console.log(final);
 
-// template strings
+// template strings in javascript
 let final2 = `my name is ${name1}, and i love coding`;
 console.log(final2);
