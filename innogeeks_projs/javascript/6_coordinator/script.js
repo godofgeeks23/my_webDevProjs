@@ -6,15 +6,12 @@ let name1 = "aviral";	// double quotes
 let name2 = 'ayush';	// single quotes
 let name3 = `aditya`;	// back ticks
 
-console.log(name1);
-console.log(name2);
-console.log(name3);
+console.log(name1, name2, name3);
 
 // a v i r a l
 // 0 1 2 3 4 5
 
-console.log(name1[1]);
-console.log(name1[2]);
+console.log(name1[1], name1[2]);
 
 name1[0] = 'g';			// strings are immutable in javascript
 console.log(name1);
@@ -29,8 +26,8 @@ console.log(name1[name1.length - 1]);
 
 // trim function
 let test = "   AvIrAl   ";
-console.log(test.length);
-console.log(test.trim().length);
+console.log(test.length, test.trim().length);
+// console.log(test.trim().length);
 
 test.toUpperCase();
 console.log(test);
