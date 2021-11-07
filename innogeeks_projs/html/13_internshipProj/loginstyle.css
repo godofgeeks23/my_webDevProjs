@@ -18,7 +18,6 @@ body
 	margin: auto;
 	width: 25%;
 	height: auto;
-	/* background-color: white; */
 	background: rgba(255, 255, 255, 0.6);
 	backdrop-filter: blur(8px);
 	padding: 20px;
@@ -36,17 +35,14 @@ body
 	-moz-background-clip: text;
 	-moz-text-fill-color: transparent;
 }
-.sub-heading
-{
+.sub-heading{
 	padding: 10px;
 }
-.gridbox
-{
+.gridbox{
 	display: grid;
 	grid-template-columns: auto auto auto;
 }
-.entrybox
-{
+.entrybox{
 	padding: 10px;
 	margin: 10px;
 	height: 20px;
@@ -56,12 +52,10 @@ body
 	border-image: linear-gradient(to right, #5680E9,#8860D0);
 	border-image-slice: 1;
 }
-.checkbox-box
-{
+.checkbox-box{
 	padding: 10px;
 }
-.login-buttons
-{
+.login-buttons{
 	background-image: linear-gradient(to right, #8860D0 , #5AB9EA);
 	padding: 10px 20px;
 	margin: 10px auto;
@@ -70,12 +64,10 @@ body
 	border-radius: 5px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-a
-{
+a{
 	color: #ffffff;
     text-decoration: none;
 }
-#different
-{
+#different{
 	color: #000000;
 }

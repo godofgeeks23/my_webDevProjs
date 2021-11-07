@@ -1,5 +1,4 @@
 body {
-	/* background-color: #05c46b; */
 	font-family: Verdana;
 	text-align: center;
 	background-image: radial-gradient(#5680E9, #5AB9EA, #C1C8E4);
@@ -15,15 +14,12 @@ form {
 .form-control {
 	text-align: left;
 	margin-bottom: 25px;
-			
 }
 .form-control label {
 	display: block;
 	margin-bottom: 10px;
 }
-.form-control input,
-.form-control select,
-.form-control textarea {
+.form-control input, .form-control select, .form-control textarea {
 	border: 1px solid #777;
 	border-radius: 2px;
 	font-family: inherit;
@@ -31,13 +27,11 @@ form {
 	display: block;
 	width: 95%;
 }
-.form-control input[type="radio"],
-.form-control input[type="checkbox"] {
+.form-control input[type="radio"], .form-control input[type="checkbox"] {
 	display: inline-block;
 	width: auto;
 }
 button {
-	/* background-color: #05c46b; */
 	background-image: linear-gradient(to right, #8860D0 , #5AB9EA);
 	border: 1px solid #777;
 	border-radius: 2px;
